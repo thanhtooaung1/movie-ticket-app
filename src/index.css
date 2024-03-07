@@ -1,0 +1,91 @@
+.pointer {
+  cursor: pointer;
+}
+
+.img-container {
+  width: 100vw;
+  height: 60vh;
+  overflow: hidden;
+}
+
+
+.home_image {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* For movie item */
+.movie-item {
+  cursor: pointer;
+}
+
+.movie-image-container {
+  height: 45vh;
+  overflow: hidden;
+}
+
+/* For cinema list */
+.selected-item  {
+  background-color: rgb(228, 182, 16) !important;
+  color: white !important;
+  border: 1px solid rgb(228, 182, 16)!important;
+} 
+
+.card-hover:hover {
+  background-color: rgb(213, 199, 148);
+  color: white;
+  border: 1px solid rgb(213, 199, 148);
+
+}
+
+.room-hover:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+
+}
+
+.room-selected {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid black !important;
+
+}
+
+/*  For time selector page */
+.time-card {
+  transition: all 0.4s ease;
+}
+
+.time-card:hover {
+  border: 1px solid rgb(228, 182, 16);
+}
+
+.selected {
+  border: 1px solid rgb(228, 182, 16) !important;
+}
+
+/* For seat selector page */
+.seat {
+  width: 4.5%;
+  height: 3.5vw;
+  margin: 5px 0px;
+  border: 2px solid rgb(228, 182, 16);
+}
+
+.couple-seat {
+  width: 15%;
+}
+
+.road {
+  width: 5%;
+}
+
+.couple-road {
+  max-width: 100%;
+}
+
+.selected-seat {
+  background-color: rgb(228, 182, 16);
+  color: white;
+}
